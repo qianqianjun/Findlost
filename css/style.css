@@ -1,0 +1,244 @@
+.bottom
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: #c0c2c7;
+}
+.bottom img
+{
+	width: 100px;
+	height: 100px;
+}
+.bottom .column
+{
+	padding: 10px;
+}
+.bottom span
+{
+	font-size: 2em;
+	padding-top: 5px;
+}
+
+.top
+{
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
+.top span
+{
+	font-size: 5em;
+	position: relative;
+	left: -40px;
+	color: white;
+	font-weight: bolder;
+	line-height: 130px;
+}
+.top .column
+{
+	padding: 10px;
+	background-color: #00b0ff;
+}
+.top img
+{
+	width: 130px;
+	height: 130px;
+	float: left;
+	margin-left: 20px;
+}
+.body .textinput{
+	width: 60%;
+	height: 80px;
+	font-size: 40px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.body span
+{
+	font-size: 40px;
+}
+.body
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 150px;
+	z-index: 1000;
+	background-color: #00ffc1;
+	padding-bottom: 20px;
+}
+.body .button
+{
+	width: 150px;
+	height: 80px;
+	font-size: 40px;
+	padding: 10;
+	border-radius:10px;
+	background-color: #fff;
+}
+.body select 
+{
+	width: 60%;
+	height: 80px;
+	font-size: 40px;
+	border-radius: 10px;
+}
+.body option
+{
+	font-size: 30px;
+}
+.body .row
+{
+	margin-top: 20px;
+}
+.thingmessage
+{
+	width: 100%;
+	height: 300px;
+	border-radius: 20px;
+	border: 2px solid #00c4ff;
+}
+.peoplemessage
+{
+	width: 100%;
+	height: 300px;
+	border-radius: 20px;
+	border: 2px solid #b400ff;
+}
+.message
+{
+	width: 100%;
+}
+.message .row
+{
+	margin-top: 20px;
+}
+.thingmessage img
+{
+	width: 250px;
+	height: 250px;
+	border: 15px solid #00c4ff;
+	border-radius: 20px;
+}
+.peoplemessage img
+{
+	width: 250px;
+	height: 250px;
+	border: 15px solid #b400ff;
+	border-radius: 20px;
+}
+.message .left
+{
+	width: 30%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 40px;
+}
+.message .right
+{
+	display: inline-block;
+	height: 100%;
+	width: 65%;
+	padding-top: 25px;
+	font-size: 35px;
+	padding-left: 20px;
+	float: right;
+}
+.right span
+{
+	font-weight: bold;
+}
+.more
+{
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+	font-weight: bolder;
+}
+.logohead
+{
+	font-size: 5em;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	font-weight: bolder;
+	padding:30px;
+}
+.logoin
+{
+	width: 100%;
+	padding:0;
+	margin:0;
+}
+.logoin span
+{
+	font-size: 40px;
+	font-weight: bold;
+	width: 100%;
+}
+.logoin .user
+{
+	width: 90%;
+	height: 80px;
+	font-size: 40px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.logoin .column{
+	padding-left: 40px;
+	padding-top: 50px;
+}
+.logoin .button
+{
+	width: 90%;
+	height: 100px;
+	background-color: green;
+	border-radius: 20px;
+	margin-top: 30px;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.people
+{
+	width: 80%;
+	border-radius: 20px;
+	height: 200px;
+	color: white;
+	font-weight: bold;
+	padding:70px;
+	font-size: 50px;
+	border:2px solid gray;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.info
+{
+	font-size: 5em;
+	margin-top: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.people img
+{
+	width: 40px;
+	height: 40px;
+}
+.detail img
+{
+	width: 300px;
+	height: 200px;
+}
+.detail .column
+{
+	text-align: center;
+}
